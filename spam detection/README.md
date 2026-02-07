@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 **Deep Learning ve Klasik ML ile SMS Spam Tespiti**
@@ -35,7 +34,6 @@ SMS Spam Detector, metin mesajlarını **Spam** veya **Ham (Güvenli)** olarak s
 |---------|----------|
 | 🧠 **Çift Model Mimarisi** | LSTM (Deep Learning) ve Logistic Regression modelleri |
 | ⚡ **Gerçek Zamanlı API** | FastAPI ile production-ready REST API |
-| 🎨 **Modern Arayüz** | Streamlit tabanlı kullanıcı dostu web arayüzü |
 | 📊 **Yüksek Performans** | %97+ doğruluk oranı ile güvenilir tahminler |
 | 🔧 **Modüler Yapı** | Kolay genişletilebilir ve özelleştirilebilir kod tabanı |
 
@@ -114,8 +112,6 @@ spam-detection/
 │
 ├── 📄 sms.py                    # Model eğitim scripti
 ├── 📄 api.py                    # FastAPI REST API
-├── 📄 app.py                    # Streamlit web arayüzü
-│
 ├── 🧠 spam_detection_model.h5   # Eğitilmiş LSTM modeli
 ├── 📦 tokenizer.pkl             # Keras Tokenizer
 ├── 📦 lr_model.pkl              # Logistic Regression modeli
@@ -162,13 +158,6 @@ python sms.py
 ---
 
 ## 🎯 Kullanım
-
-### Streamlit Arayüzü
-
-```bash
-streamlit run app.py
-```
-Tarayıcınızda `http://localhost:8501` adresine gidin.
 
 ### FastAPI Sunucusu
 
