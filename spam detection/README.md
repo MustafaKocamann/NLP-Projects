@@ -13,8 +13,7 @@
 
 ---
 
-<!-- Proje arayüz görseli için placeholder -->
-<img src="https://via.placeholder.com/800x400/1a1a2e/7b61ff?text=SMS+Spam+Detector+UI" alt="SMS Spam Detector Interface" width="100%">
+
 
 </div>
 
